@@ -1,4 +1,3 @@
-
 import pygame
 import random
 
@@ -37,3 +36,5 @@ while running:
     screen.blit(target_img, (target_x, target_y))
     pygame.display.update()
     clock.tick(60)  # Ограничение до 60 кадров в секунду
+
+pygame.quit()
